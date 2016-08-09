@@ -1,4 +1,10 @@
-Teal 3d dice sources.
-To run open dice/index.html with your browser.
-Can be used stand-alone.
-dice.py is a GAE serverlet that makes proxy requests to random.org API.
+Arduino controlling servo motor with dice animating web app
+
+
+Using following
+Flask
+PySerial
+Arduino
+
+Dice program is from Anton Natarov for details http://www.teall.info/2014/01/online-3d-dice-roller.html
+ 
