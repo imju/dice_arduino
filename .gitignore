@@ -1,2 +1,3 @@
 *.pyc
 /ardpy
+.DS_Store
