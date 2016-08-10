@@ -12,11 +12,11 @@ Arduino controlling servo motor with dice animating web app
 
 3. Computer to run a webserver
 
-## S/W
+## What you need in software
 1. virtualenv for Python environment setup
 2. Code from this repo
 
-## How to install S/W and Run
+## How to install and Run
 1. Create a virtualenv (For more info, go to http://virtualenv.org)
 2. In the newly created virtualenv env (meaning after source $env_folder$/bin/activate), git clone https://github.com/imju/dice_arduino.git
 3. Run 'pip install requirements.txt' to install Flask and PySerial
@@ -25,7 +25,7 @@ Arduino controlling servo motor with dice animating web app
   * ser = serial.Serial('/dev/cu.usbmodem1421', 9600, timeout=5)
 6. python hello.py
 7. Go to http://127.0.0.1:5000
-8. Have fun! ( Currently only supports single dice up to 6 digits)
+8. Have fun! ( Currently supports single dice up to 6 digits)
 
 
 
